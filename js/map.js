@@ -37,7 +37,7 @@ let legend = L.control({ position: "bottomleft" });
 
 legend.onAdd = function(map) {
   let div = L.DomUtil.create("div", "legend");
-  div.innerHTML += '<img src="/img/mutine-women-legend.jpg" style="width:200px">'
+  div.innerHTML += '<img src="img/mutine-women-legend.jpg" style="width:200px">'
   
 
   return div;
